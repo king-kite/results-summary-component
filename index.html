@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result Summary Component</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="./assets/images/favicon-32x32.png">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; margin: 3rem 0; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="result-container">
+      <p class="top-title">your result</p>
+      <p class="result">
+        76<span>of 100</span>
+      </p>
+      <h3 class="top-remark">great</h3>
+      <p class="top-remark-description">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </div>
+    <div class="summary-container">
+      <h3 class="title">summary</h3>
+      <ul>
+        <li class="summary-result-wrapper red">
+          <div class="summary-title-container">
+            <div class="summary-image-container">
+              <img src="./assets/images/icon-reaction.svg" alt="" />
+            </div>
+            <p class="summary-title">reaction</p>
+          </div>
+          <div class="summary-result-container">
+            <span class="summary-result-score">80</span>
+            <span class="summary-result-slash">/</span>
+            <span class="summary-result-total">100</span>
+          </div>
+        </li>
+        <li class="summary-result-wrapper yellow">
+          <div class="summary-title-container">
+            <div class="summary-image-container">
+              <img src="./assets/images/icon-memory.svg" alt="" />
+            </div>
+            <p class="summary-title">memory</p>
+          </div>
+          <div class="summary-result-container">
+            <span class="summary-result-score">92</span>
+            <span class="summary-result-slash">/</span>
+            <span class="summary-result-total">100</span>
+          </div>
+        </li>
+        <li class="summary-result-wrapper green">
+          <div class="summary-title-container">
+            <div class="summary-image-container">
+              <img src="./assets/images/icon-verbal.svg" alt="" />
+            </div>
+            <p class="summary-title">verbal</p>
+          </div>
+          <div class="summary-result-container">
+            <span class="summary-result-score">61</span>
+            <span class="summary-result-slash">/</span>
+            <span class="summary-result-total">100</span>
+          </div>
+        </li>
+        <li class="summary-result-wrapper indigo">
+          <div class="summary-title-container">
+            <div class="summary-image-container">
+              <img src="./assets/images/icon-visual.svg" alt="" />
+            </div>
+            <p class="summary-title">visual</p>
+          </div>
+          <div class="summary-result-container">
+            <span class="summary-result-score">80</span>
+            <span class="summary-result-slash">/</span>
+            <span class="summary-result-total">100</span>
+          </div>
+        </li>
+      </ul>
+      <button class="summary-result-button" type="button">continue</button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/king-kite">Emmanuel (king-kite)</a>.
+  </div>
+</body>
+</html>
